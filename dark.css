@@ -2120,6 +2120,10 @@ ts-jumper .p-jumper__help {
     color: inherit !important
 }
 
+.c-button-unstyled {
+    background: var(--dark-purp)
+}
+
 @keyframes fade-background-highlight {
     0% {
         background: var(--background-hover)
