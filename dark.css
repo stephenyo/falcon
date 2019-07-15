@@ -489,7 +489,7 @@ ts-message .action_hover_container .btn_msg_action,
 }
 
 #col_channels {
-    border-right: 1px solid var(--border-dim)
+    border-right: none !important;
 }
 
 #flex_contents .heading,
