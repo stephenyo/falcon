@@ -312,6 +312,19 @@ li.active[class] span,
     border-radius: 15px 15px 0 0*/
 }
 
+.c-mention_badge {
+    background: var(--red) !important;
+    border-radius: 16px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 4px;
+    padding: 0 9px;
+}
+
 .p-channel_sidebar__badge {
     border: 1 px solid
 }
