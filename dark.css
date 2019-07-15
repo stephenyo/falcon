@@ -1622,8 +1622,9 @@ ts-jumper ts-jumper-container {
     background-color: var(--background)
 }
 
-.p-flexpane_header {
-    background: var(--background)
+.p-flexpane_header,
+.p-flexpane {
+    background: var(--sidebar-bg)
 }
 
 .p-flexpane_header__control:hover {
