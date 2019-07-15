@@ -19,6 +19,7 @@
     --sub-purp: #44475a;
     --green: #50fa7b;
     --red: #ff5555;
+    --sidebar-bg: #282a36;
 }
 
 .p-channel_sidebar__banner--unreads {
@@ -65,7 +66,7 @@ div.client_channels_list_container {
 }
 
 nav.p-channel_sidebar {
-    background-color: var(--background-elevated);
+    background-color: var(--sidebar-bg);
     color: var(--text)
 }
 
@@ -282,14 +283,14 @@ li.active[class] span,
 }
 
 .p-channel_sidebar__banner--top {
-    background-color: var(--background);
+    background-color: var(--sidebar-bg);
     border: 1px solid var(--border-bright);
     border-top: 0;
     border-radius: 0 0 15px 15px
 }
 
 .p-channel_sidebar__banner--bottom {
-    background-color: var(--background);
+    background-color: var(--sidebar-bg);
     border: 1px solid var(--border-bright);
     border-bottom: 0;
     border-radius: 15px 15px 0 0
