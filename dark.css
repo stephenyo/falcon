@@ -106,7 +106,6 @@ __TODO-highlight-indicator {
 #search_terms,
 #footer,
 ts-message,
-.channel_header,
 ts-jumper ts-jumper-container,
 ts-jumper input[type="text"],
 .supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-track,
@@ -116,7 +115,11 @@ ts-jumper input[type="text"],
 #edit_topic_inner:before,
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
-    background: var(--sidebar-bg) !important
+    background: var(--background) !important
+}
+
+.channel_header {
+    background-color: var(--sidebar-bg)
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,
