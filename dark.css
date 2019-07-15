@@ -18,6 +18,7 @@
     --dark-purp: #6272a4;
     --sub-purp: #44475a;
     --green: #50fa7b;
+    --red: #ff5555;
 }
 
 .p-channel_sidebar__banner--unreads {
@@ -296,7 +297,7 @@ li.active[class] span,
 
 .p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
-    background-color: var(--green) !important;
+    background-color: var(--red) !important;
     border-color: var(--text-bright);
     color: var(--text-bright);
     border: 0;
