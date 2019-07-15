@@ -304,7 +304,7 @@ li.active[class] span,
 }
 
 .p-channel_sidebar__badge {
-    / / border: 1 px solid
+    border: 1 px solid
 }
 
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical,
@@ -354,7 +354,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 .c-presence--active,
 .p-channel_sidebar__channel--im-slackbot:before,
 #presence.active:before {
-    color: var(--active-icon) !important
+    color: var(--green) !important
 }
 
 #msg_input,
@@ -1936,7 +1936,7 @@ ts-jumper .p-jumper__help {
 .presence.active,
 .c-unified_member .presence.active,
 .c-unified_member__presence.active {
-    color: var(--active-icon)
+    color: var(--green)
 }
 
 .c-unified_member__display-name--large,
