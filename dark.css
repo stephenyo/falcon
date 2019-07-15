@@ -17,6 +17,7 @@
     --active-icon: #2b6b95;
     --dark-purp: #6272a4;
     --sub-purp: #44475a;
+    --green: #50fa7b;
 }
 
 .p-channel_sidebar__banner--unreads {
@@ -245,9 +246,11 @@ ts-jumper input[type="text"],
     background-color: var(--background) !important
 }
 
-.p-channel_sidebar__channel--selected:link,
-.p-channel_sidebar__channel--selected {
-    background: var(--sub-purp)
+.p-channel_sidebar__channel--selected,
+.p-channel_sidebar__channel--selected:hover,
+.p-channel_sidebar__link--selected,
+.p-channel_sidebar__link--selected:hover {
+    background: var(--sub-purp) !important;
 }
 
 .p-channel_sidebar__channel:hover,
