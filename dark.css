@@ -497,7 +497,7 @@ ts-message .action_hover_container .btn_msg_action,
 #flex_contents .heading_text,
 #flex_contents .subheading,
 #flex_contents .toolbar_container {
-    background: var(--background) !important;
+    background: var(--sidebar-bg) !important;
     color: var(--text) !important;
     border-color: var(--border-dim)
 }
