@@ -296,13 +296,20 @@ li.active[class] span,
     border-radius: 15px 15px 0 0
 }
 
-.p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
     background-color: var(--red) !important;
     border-color: var(--text-bright);
     color: var(--text-bright);
     border: 0 !important;
     border-radius: 15px 15px 0 0
+}
+
+.p-channel_sidebar__badge {
+    background-color: var(--red) !important;
+    /*border-color: var(--text-bright);
+    color: var(--text-bright);
+    border: 0 !important;
+    border-radius: 15px 15px 0 0*/
 }
 
 .p-channel_sidebar__badge {
