@@ -2115,6 +2115,10 @@ ts-jumper .p-jumper__help {
     background: var(--background) !important
 }
 
+.c-message_actions__button {
+    color: inherit !important
+}
+
 @keyframes fade-background-highlight {
     0% {
         background: var(--background-hover)
