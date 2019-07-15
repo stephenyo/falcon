@@ -147,7 +147,7 @@ ts-jumper input[type="text"],
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-    / / background-color: var(--background-hover);
+    background-color: var(--background-hover);
     background-color: transparent
 }
 
@@ -1622,12 +1622,6 @@ ts-jumper ts-jumper-container {
     background-color: var(--background)
 }
 
-.p-flexpane_header,
-.p-flexpane {
-    background: var(--sidebar-bg);
-    border-bottom: none !important;
-}
-
 .p-flexpane_header__control:hover {
     color: var(--text)
 }
@@ -2106,6 +2100,12 @@ ts-jumper .p-jumper__help {
 
 .c-label__text {
     color: var(--text-grey)
+}
+
+.p-flexpane_header,
+.p-flexpane {
+    background: var(--sidebar-bg);
+    border-bottom: none !important;
 }
 
 @keyframes fade-background-highlight {
