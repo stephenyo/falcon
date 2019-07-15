@@ -119,7 +119,7 @@ ts-jumper input[type="text"],
 }
 
 .channel_header {
-    background-color: var(--sidebar-bg)
+    background-color: var(--sidebar-bg) !important
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,
@@ -2109,6 +2109,10 @@ ts-jumper .p-jumper__help {
 .p-flexpane {
     background: var(--sidebar-bg);
     border-bottom: none !important;
+}
+
+.c-message {
+    background: var(--background) !important
 }
 
 @keyframes fade-background-highlight {
