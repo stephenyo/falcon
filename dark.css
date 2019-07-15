@@ -14,7 +14,7 @@
     --text-grey: #717274;
     --scrollbar-background: #787878;
     --scrollbar-border: #787878;
-    --active-icon: #2b6b95;
+    --active-icon: var(--green);
     --dark-purp: #6272a4;
     --sub-purp: #44475a;
     --green: #50fa7b;
