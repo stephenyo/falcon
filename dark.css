@@ -301,7 +301,7 @@ li.active[class] span,
     background-color: var(--red) !important;
     border-color: var(--text-bright);
     color: var(--text-bright);
-    border: 0;
+    border: 0 !important;
     border-radius: 15px 15px 0 0
 }
 
