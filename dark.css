@@ -1113,7 +1113,8 @@ ts-thread .view_all_replies_container:hover {
 }
 
 .unread_group_header button {
-    color: var(--text-special)
+    color: var(--text-special);
+    background: var(--dark-purp);
 }
 
 #threads_msgs_scroller_div:not(.loading):before {
