@@ -296,7 +296,7 @@ li.active[class] span,
 
 .p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
-    background-color: var(--color-highlight) !important;
+    background-color: var(--green) !important;
     border-color: var(--text-bright);
     color: var(--text-bright);
     border: 0;
