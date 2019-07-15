@@ -16,6 +16,7 @@
     --scrollbar-border: #787878;
     --active-icon: #2b6b95;
     --dark-purp: #6272a4;
+    --sub-purp: #44475a;
 }
 
 .p-channel_sidebar__banner--unreads {
@@ -246,13 +247,13 @@ ts-jumper input[type="text"],
 
 .p-channel_sidebar__channel--selected:link,
 .p-channel_sidebar__channel--selected {
-    background: var(--color-highlight)
+    background: var(--sub-purp)
 }
 
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover {
-    background-color: var(--background-hover) !important;
-    border-color: transparent;
+    background-color: var(--dark-purp) !important;
+    border-color: transparent !important;
     color: var(--text) !important;
     height: 24px !important
 }
