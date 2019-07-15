@@ -1624,7 +1624,8 @@ ts-jumper ts-jumper-container {
 
 .p-flexpane_header,
 .p-flexpane {
-    background: var(--sidebar-bg)
+    background: var(--sidebar-bg);
+    border-bottom: none !important;
 }
 
 .p-flexpane_header__control:hover {
