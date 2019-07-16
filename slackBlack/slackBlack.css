@@ -307,6 +307,7 @@ ts-message .mention {
 .c-search__input_box .c-search__input_box__input .ql-editor,
 .c-search__input_box .c-search__input_box__input .ql-placeholder {
     background: #2b2c2e !important;
+    color: #f8f8f2 !important;
     border: none !important;
 }
 
