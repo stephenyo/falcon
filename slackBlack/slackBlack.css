@@ -41,7 +41,7 @@ div.c-virtual_list__scroll_container {
 .light_theme ts-message .timestamp {
     line-height: 18px;
     opacity: 0;
-    color: #ffb86c !important;
+    color: #f1fa8c !important;
 }
 
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
@@ -488,13 +488,13 @@ p-search_filter__date:first-child {
 }
 
 .c-message--light .c-message__sender .c-message__sender_link {
-    color: #50fa7b !important;
+    color: #b993f9 !important;
     font-weight: 700 !important;
     font-size: 14px !important;
 }
 
 .light_theme ts-message .message_content .message_sender {
-    color: #50fa7b !important;
+    color: #b993f9 !important;
     text-transform: capitalize;
     font-weight: 700 !important;
 }
@@ -1119,11 +1119,11 @@ input[type=search]:focus {
 }
 
 .c-timestamp__label {
-    color: #ffb86c !important;
+    color: #f1fa8c !important;
 }
 
 .c-message__sender {
-    color: #50fa7b !important
+    color: #b993f9 !important
 }
 
 .c-dialog__footer .c-button {
@@ -1139,7 +1139,7 @@ input[type=search]:focus {
 }
 
 a.c-message__sender_link {
-    color: #50fa7b !important;
+    color: #b993f9 !important;
 }
 
 .ql-editor[aria-label] {
