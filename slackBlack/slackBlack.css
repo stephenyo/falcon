@@ -3642,6 +3642,11 @@ p-search_filter__from_name,
     background: #6272a4 !important;
 }
 
+.p-message_pane__unread_banner__close--detached {
+    background: #6272a4;
+    border-left: 1px solid white
+}
+
 #msg_input,
 #msg_input:focus {
     background: none !important;
@@ -3660,4 +3665,92 @@ p-search_filter__from_name,
 
 .p-notification_bar__section {
     color: #8be9fd;
+}
+
+.p-file_upload_banner {
+    position: relative;
+    flex: 1 0 auto;
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    height: 25px;
+    color: #fff;
+    z-index: 200
+}
+
+.p-file_upload_banner--fading {
+    transition: opacity .2s;
+    opacity: 0
+}
+
+.p-file_upload_banner__progress {
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #b2d5c9;
+    height: 100%
+}
+
+.p-file_upload_banner__progress--complete {
+    background: #007a5a
+}
+
+.p-file_upload_banner__progress--canceled {
+    background: #e01e5a
+}
+
+.p-file_upload_banner__progress_inner {
+    border-radius: 6px;
+    height: 100%;
+    display: inline-block;
+    transition: width .15s;
+    background-position: 50%;
+    background-repeat: repeat-x;
+    background-size: 36px 36px;
+    background-image: url(https://a.slack-edge.com/bfaba/img/progress_bar_pattern.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution:2dppx),
+only screen and (min-resolution:192dpi) {
+    .p-file_upload_banner__progress_inner {
+        background-image: url(https://a.slack-edge.com/bfaba/img/progress_bar_pattern@2x.png)
+    }
+}
+
+.p-file_upload_banner__progress_inner--animated {
+    transition: none;
+    animation: progress_bar 1s linear infinite
+}
+
+@keyframes progress_bar {
+    0% {
+        background-position: 0 0
+    }
+    to {
+        background-position: -36px 0
+    }
+}
+
+.p-file_upload_banner__text {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    height: 25px;
+    line-height: 25px;
+    max-width: 75%;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.p-file_upload_banner__cancel {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff
 }
