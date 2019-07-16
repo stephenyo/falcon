@@ -9,12 +9,14 @@ body {
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: pink !important
+    background: grey !important;
+    color: white !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: green !important
+    background: grey !important;
+    color: white !important;
 }
 
 div.c-message.c-message--light.c-message--hover {
