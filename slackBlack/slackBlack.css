@@ -9,13 +9,13 @@ body {
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: grey !important;
+    background: #4d4d4d !important;
     color: white !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: grey !important;
+    background: #4d4d4d !important;
     color: white !important;
 }
 
