@@ -1255,12 +1255,14 @@ a.c-message__sender_link {
 
 .p-threads_footer__input--legacy .p-message_input_file_button {
     background-color: #6272a4 !important;
+    border: none!important;
     color: white;
 }
 
 .p-threads_footer__input--legacy:hover .p-message_input_file_button:hover {
     background-color: #6272a4 !important;
     color: #bd93f9;
+    border: none !important;
 }
 
 .sli_briefing {
