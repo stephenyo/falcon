@@ -202,8 +202,7 @@ ts-message .mention {
 }
 
 #primary_file_button:hover {
-    border: 2px solid #6274a4 !important;
-    background: #bd93f9 !important;
+    color: #bd93f9 !important;
 }
 
 #primary_file_button {
@@ -1249,6 +1248,11 @@ a.c-message__sender_link {
 .p-threads_footer__input--legacy .p-message_input_file_button {
     background-color: #6272a4 !important;
     color: white;
+}
+
+.p-threads_footer__input--legacy:hover .p-message_input_file_button:hover {
+    background-color: #6272a4 !important;
+    color: #bd93f9;
 }
 
 .sli_briefing {
@@ -3607,6 +3611,6 @@ p-search_filter__from_name,
 }
 
 .c-mrkdwn__user_group--link:hover {
-    background: #bd93f9 !important;
-    color: #6272a4 !important;
+    background: #6272a4 !important;
+    color: #bd93f9 !important;
 }
