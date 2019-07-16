@@ -3654,9 +3654,7 @@ p-search_filter__from_name,
     background: none !important;
 }
 
-.menu ul li.highlighted a:not(.inline_menu_link),
-.menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link),
-.menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) {
+.menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) {
     background-color: #6272a4;
 }
 
