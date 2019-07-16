@@ -346,7 +346,7 @@ ts-message .mention {
 }
 
 .c-pillow_file__content--collapsed:after {
-    background: linear-gradient(0deg, #6272a4, hsla(0, 0%, 100%, 0) 40px) !important;
+    background: linear-gradient(0deg, #363636, hsla(0, 0%, 100%, 0) 40px) !important;
 }
 
 .c-pillow_file_container {
