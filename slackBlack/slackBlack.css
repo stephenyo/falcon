@@ -9,9 +9,10 @@ body {
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: #4d4d4d !important;
+    background: none !important;
     color: white !important;
-    border: none !important;
+    /* border: none !important; */
+    border-color: #6272a4 !important
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
@@ -1871,7 +1872,7 @@ pre {
 
 #msg_input.focus,
 #msg_input:focus {
-    border-color: #404040;
+    border-color: #6272a4 !important;
 }
 
 .mention_day_container_div .day_divider:before {
