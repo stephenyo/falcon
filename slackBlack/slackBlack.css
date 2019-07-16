@@ -11,6 +11,7 @@ body {
     /* font-family: 'Muli', sans-serif !important; */
     background: #4d4d4d !important;
     color: white !important;
+    border-color: #4d4d4d !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
@@ -1241,8 +1242,9 @@ a.c-message__sender_link {
     color: #8be9fd!important;
 }
 
-.c-message .c-button--primary {
-    background-color: #6272a4;
+.c-message .c-button--primary,
+.c-button--primary {
+    background-color: #6272a4 !important;
 }
 
 .c-message_kit__file__meta__text {
