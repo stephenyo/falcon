@@ -2575,7 +2575,7 @@ c-keyboard_key {
 }
 
 .c-presence--active {
-    color: #93cc93 !important;
+    color: #50fa7b !important;
 }
 
 select {
@@ -2965,7 +2965,7 @@ ts-message .reply_bar:hover {
 }
 
 .c-unified_member--small .presence .presence_icon:before {
-    color: #5cf8ad;
+    color: #50fa7b;
 }
 
 #details_tab .restricted_members_count {
@@ -2973,11 +2973,11 @@ ts-message .reply_bar:hover {
 }
 
 .presence_icon:before {
-    color: #31d940 !important;
+    color: #50fa7b !important;
 }
 
 .ts_icon_presence:before {
-    color: #1fdf4e !important;
+    color: #50fa7b !important;
 }
 
 .away>.ts_icon_presence:before {
