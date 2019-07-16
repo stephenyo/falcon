@@ -3657,3 +3657,7 @@ p-search_filter__from_name,
 .menu ul li .menu_item_label:hover {
     background-color: #6272a4;
 }
+
+.p-notification_bar__section {
+    color: #8be9fd;
+}
