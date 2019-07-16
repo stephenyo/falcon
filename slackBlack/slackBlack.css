@@ -9,12 +9,12 @@ body {
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: inherit !important
+    background: pink !important
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: inherit !important
+    background: green !important
 }
 
 div.c-message.c-message--light.c-message--hover {
@@ -1589,7 +1589,7 @@ h4 {
 }
 
 .c-message_list__unread_divider__label {
-    background: #f81111;
+    background: #ff5555;
     border: 1px solid transparent;
     text-transform: capitalize;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
@@ -2562,12 +2562,12 @@ c-keyboard_key {
 }
 
 .c-menu_item__li:hover {
-    background: #0c77bb !important;
+    background: #6272a4 !important;
 }
 
 #msg_form .ql-editor,
 #msg_form .ql-placeholder {
-    opacity: 0.4;
+    /* opacity: 0.4; */
     color: white
 }
 
