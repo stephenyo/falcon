@@ -3,7 +3,7 @@ JS="
 document.addEventListener('DOMContentLoaded', function() {
   // Fetch our CSS in parallel ahead of time
   const cssPath =
-    'https://raw.githubusercontent.com/caiceA/slack-raw/master/slack-4';
+    'https://raw.githubusercontent.com/stephenyo/falcon/master/slackBlack/slackBlack.css';
   let cssPromise = fetch(cssPath).then((response) => response.text());
 
   let customCustomCSS = \`
