@@ -3192,7 +3192,7 @@ ts-message .internal_member_link:hover {
     font-size: 11px;
     padding: 1px 3px;
     color: rgba(255, 255, 255, 1) !important;
-    background-color: rgb(142, 60, 245);
+    background-color: #bd93f9;
     display: inline-block;
     height: 14px;
     line-height: 1.25;
@@ -3654,7 +3654,7 @@ p-search_filter__from_name,
     background: none !important;
 }
 
-.menu ul li .menu_item_label:hover {
+.menu ul li.highlighted .menu_item_label:hover {
     background-color: #6272a4;
 }
 
