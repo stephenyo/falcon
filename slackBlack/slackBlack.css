@@ -3638,7 +3638,8 @@ p-search_filter__from_name,
     /* border: none !important; */
 }
 
-.c-button-unstyled.p-message_pane__unread_banner__msg {
+.c-button-unstyled.p-message_pane__unread_banner__msg,
+.p-message_pane__unread_banner__close:hover {
     background: #6272a4 !important;
 }
 
