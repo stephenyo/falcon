@@ -17,7 +17,7 @@ body {
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
-    background: #4d4d4d !important;
+    background: none !important;
     color: white !important;
 }
 
@@ -1032,7 +1032,7 @@ input[type=search]:focus {
 
 .c-message__editor__input--legacy.focus {
     border-color: transparent;
-    background: #585858;
+    background: none;
     color: white;
     border-radius: 3px;
 }
@@ -1064,18 +1064,18 @@ input[type=search]:focus {
 }
 
 .p-threads_footer__input {
-    background: black;
+    background: none;
 }
 
 .p-threads_footer__input .p-message_input_field {
-    border-color: transparent !important;
-    background: #4d4d4d !important;
+    border-color: #6272a4 !important;
+    background: none !important;
     color: white !important;
 }
 
 .p-threads_footer__input .p-message_input_field.focus {
-    border-color: transparent !important;
-    background: #4d4d4d !important;
+    border-color: #6272a4 !important;
+    background: none !important;
     color: white !important;
 }
 
