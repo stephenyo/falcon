@@ -11,7 +11,7 @@ body {
     /* font-family: 'Muli', sans-serif !important; */
     background: #4d4d4d !important;
     color: white !important;
-    border-color: transparent !important;
+    border: none !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
@@ -206,7 +206,7 @@ ts-message .mention {
 .upload_in_threads .inline_message_input_container:hover .inline_file_upload,
 .upload_in_threads.has_focus .inline_message_input_container .inline_file_upload {
     background: #6272a4 !important;
-    border: 2px solid #6272a4 !important;
+    border: none !important;
     color: white !important;
 }
 
@@ -2367,6 +2367,7 @@ c-keyboard_key {
 .c-button-unstyled:focus,
 .c-button-unstyled:hover {
     outline: none;
+    background: #6272a4 !important;
 }
 
 .p-shortcuts_flexpane__shortcut_hoverable .p-shortcuts_flexpane__shortcut_title:hover {
@@ -3631,5 +3632,9 @@ p-search_filter__from_name,
 }
 
 .btn:hover {
-    background: #bd93f9 !important
+    background: #bd93f9 !important;
+}
+
+.p-threads_footer__input .p-message_input_field {
+    border: none !important;
 }
