@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); */
+
 body {
-    font-family: 'Muli', sans-serif !important;
+    /* font-family: 'Muli', sans-serif !important; */
     text-rendering: optimizeLegibility important;
     word-spacing: -1px;
     -webkit-font-smoothing: auto;
 }
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
-    font-family: 'Muli', sans-serif !important;
+    /* font-family: 'Muli', sans-serif !important; */
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
-    font-family: 'Muli', sans-serif !important;
+    /* font-family: 'Muli', sans-serif !important; */
 }
 
 div.c-message.c-message--light.c-message--hover {
@@ -40,7 +41,7 @@ div.c-virtual_list__scroll_container {
 .light_theme ts-message .timestamp {
     line-height: 18px;
     opacity: 0;
-    color: #ffb088 !important;
+    color: #ffb86c !important;
 }
 
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
@@ -115,13 +116,13 @@ ts-message .app_preview_link_slug,
 ts-message .internal_member_link,
 ts-message .internal_user_group_link,
 ts-message .mention {
-    color: #fecd8a !important;
+    color: #ffb86c !important;
     font-size: 14px;
     background: transparent
 }
 
 .btn {
-    background: #008952;
+    background: #6272a4;
     color: #fff;
     line-height: 1.2rem;
     font-weight: 900;
@@ -167,7 +168,7 @@ ts-message .mention {
 }
 
 .c-member_slug--link:hover {
-    background: #de5ea2;
+    background: #6272a4;
     color: white !important
 }
 
@@ -195,8 +196,8 @@ ts-message .mention {
 
 .upload_in_threads .inline_message_input_container:hover .inline_file_upload,
 .upload_in_threads.has_focus .inline_message_input_container .inline_file_upload {
-    background: #008952 !important;
-    border: 2px solid #008952 !important;
+    background: #6272a4 !important;
+    border: 2px solid #6272a4 !important;
     color: white !important;
 }
 
@@ -212,8 +213,8 @@ ts-message .mention {
     left: 0;
     width: 44px;
     padding: 0;
-    border: 2px solid #008952 !important;
-    background: #008952 !important;
+    border: 2px solid #6272a4 !important;
+    background: #6272a4 !important;
     color: white !important;
     line-height: 42px;
     text-shadow: none;
@@ -225,7 +226,7 @@ ts-message .mention {
 }
 
 .inline_file_upload {
-    background: #008952 !important;
+    background: #6272a4 !important;
     color: white !important;
 }
 
@@ -1088,7 +1089,7 @@ input[type=search]:focus {
 .p-threads_footer__input--legacy .p-message_input_plus {
     border: 1px solid transparent !important;
     border-radius: 4px 0 0 4px;
-    background: #008952 !important;
+    background: #6272a4 !important;
 }
 
 .ql-editor [aria-label] {
@@ -1119,7 +1120,7 @@ input[type=search]:focus {
 }
 
 .c-timestamp__label {
-    color: #ffb088 !important;
+    color: #ffb86c !important;
 }
 
 .c-message__sender {
@@ -1233,7 +1234,7 @@ a.c-message__sender_link {
 }
 
 .c-message .c-button--primary {
-    background-color: #008952;
+    background-color: #6272a4;
 }
 
 .c-message_kit__file__meta__text {
@@ -1242,11 +1243,11 @@ a.c-message__sender_link {
 }
 
 .msg_input_btn {
-    background-color: #008952 !important;
+    background-color: #6272a4 !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_file_button {
-    background-color: #008952 !important;
+    background-color: #6272a4 !important;
     color: white;
 }
 
@@ -2457,7 +2458,7 @@ c-keyboard_key {
 }
 
 .btn {
-    background: #008952;
+    background: #6272a4;
     color: #fff !important;
 }
 
