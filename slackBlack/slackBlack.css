@@ -9,10 +9,12 @@ body {
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
+    background: inherit !important
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
     /* font-family: 'Muli', sans-serif !important; */
+    background: inherit !important
 }
 
 div.c-message.c-message--light.c-message--hover {
@@ -180,16 +182,20 @@ ts-message .mention {
     color: white !important;
 }
 
-.c-member_slug--mention,
-.c-member_slug--mention:hover {
+.c-member_slug--mention {
     background: #ffb86c !important;
     color: #6272a4 !important;
+}
+
+.c-member_slug--mention:hover {
+    background: #ffb86c !important;
+    color: #f1fa8c !important;
 }
 
 #convo_tab .message_input,
 #convo_tab textarea#msg_text {
     width: 100%;
-    background: #31353d !important;
+    background: inherit !important;
     border: 1px solid #31353d !important;
     color: white !important;
 }
@@ -709,7 +715,7 @@ a:hover {
 }
 
 #msg_input {
-    background: #424242!important;
+    background: none !important;
 }
 
 .p-file_list__empty {
