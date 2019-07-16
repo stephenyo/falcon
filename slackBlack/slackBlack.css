@@ -1,5 +1,16 @@
 /* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); */
 
+:root {
+    --dark-purp: #6272a4;
+    --purp: #bd93f9;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --red: #ff5555;
+    --yellow: #f1fa8c;
+}
+
 body {
     /* font-family: 'Muli', sans-serif !important; */
     text-rendering: optimizeLegibility important;
@@ -12,7 +23,7 @@ body {
     background: none !important;
     color: white !important;
     /* border: none !important; */
-    border-color: #6272a4 !important
+    border-color: var(--dark-purp) !important
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
@@ -128,7 +139,7 @@ ts-message .mention {
 }
 
 .btn {
-    background: #6272a4;
+    background: var(--dark-purp);
     color: #fff;
     line-height: 1.2rem;
     font-weight: 900;
@@ -174,7 +185,7 @@ ts-message .mention {
 }
 
 .c-member_slug--link:hover {
-    background: #6272a4;
+    background: var(--dark-purp);
     color: #bd93f9 !important
 }
 
@@ -188,7 +199,7 @@ ts-message .mention {
 
 .c-member_slug--mention {
     background: #ffb86c !important;
-    color: #6272a4 !important;
+    color: var(--dark-purp) !important;
 }
 
 .c-member_slug--mention:hover {
@@ -206,7 +217,7 @@ ts-message .mention {
 
 .upload_in_threads .inline_message_input_container:hover .inline_file_upload,
 .upload_in_threads.has_focus .inline_message_input_container .inline_file_upload {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
     border: none !important;
     color: white !important;
 }
@@ -222,8 +233,8 @@ ts-message .mention {
     left: 0;
     width: 44px;
     padding: 0;
-    border: 2px solid #6272a4 !important;
-    background: #6272a4 !important;
+    border: 2px solid var(--dark-purp) !important;
+    background: var(--dark-purp) !important;
     color: white !important;
     line-height: 42px;
     text-shadow: none;
@@ -235,7 +246,7 @@ ts-message .mention {
 }
 
 .inline_file_upload {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
     color: white !important;
 }
 
@@ -565,7 +576,7 @@ p-search_filter__date:first-child {
 }
 
 .c-file__meta {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
 }
 
 .p-file_details__name {
@@ -610,7 +621,7 @@ input.c-input_select__filter_input {
 }
 
 .c-search_autocomplete__suggestion_item:hover {
-    background: #2D9EE0;
+    background: var(--dark-purp);
     color: white;
 }
 
@@ -1059,7 +1070,7 @@ input[type=search]:focus {
 
 .unread_group .unread_group_header .unread_group_mark,
 .unread_group .unread_group_header .unread_keyboard {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
     color: white !important;
 }
 
@@ -1068,13 +1079,13 @@ input[type=search]:focus {
 }
 
 .p-threads_footer__input .p-message_input_field {
-    border-color: #6272a4 !important;
+    border-color: var(--dark-purp) !important;
     background: none !important;
     color: white !important;
 }
 
 .p-threads_footer__input .p-message_input_field.focus {
-    border-color: #6272a4 !important;
+    border-color: var(--dark-purp) !important;
     background: none !important;
     color: white !important;
 }
@@ -1095,7 +1106,7 @@ input[type=search]:focus {
 .p-threads_footer__input--legacy .p-message_input_plus {
     border: 1px solid transparent !important;
     border-radius: 4px 0 0 4px;
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
 }
 
 .ql-editor [aria-label] {
@@ -1241,7 +1252,7 @@ a.c-message__sender_link {
 
 .c-message .c-button--primary,
 .c-button--primary {
-    background-color: #6272a4 !important;
+    background-color: var(--dark-purp) !important;
 }
 
 .c-message_kit__file__meta__text {
@@ -1250,17 +1261,17 @@ a.c-message__sender_link {
 }
 
 .msg_input_btn {
-    background-color: #6272a4 !important;
+    background-color: var(--dark-purp) !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_file_button {
-    background-color: #6272a4 !important;
+    background-color: var(--dark-purp) !important;
     border: none!important;
     color: white;
 }
 
 .p-threads_footer__input--legacy:hover .p-message_input_file_button:hover {
-    background-color: #6272a4 !important;
+    background-color: var(--dark-purp) !important;
     color: #bd93f9;
     border: none !important;
 }
@@ -1378,7 +1389,7 @@ a.c-message__sender_link {
 }
 
 .c-mrkdwn__highlight {
-    background: transparent !important;
+    background: var(--dark-purp) !important;
 }
 
 .c-message_kit__background--labels {
@@ -1453,7 +1464,7 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 }
 
 .c-mrkdwn__highlight {
-    color: #ffe9b8 !important;
+    color: #ff79c6 !important;
 }
 
 .c-action_buttons__button {
@@ -1870,7 +1881,7 @@ pre {
 
 #msg_input.focus,
 #msg_input:focus {
-    border-color: #6272a4 !important;
+    border-color: var(--dark-purp) !important;
 }
 
 .mention_day_container_div .day_divider:before {
@@ -2366,7 +2377,7 @@ c-keyboard_key {
 .c-button-unstyled:focus,
 .c-button-unstyled:hover {
     outline: none;
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
 }
 
 .p-shortcuts_flexpane__shortcut_hoverable .p-shortcuts_flexpane__shortcut_title:hover {
@@ -2473,7 +2484,7 @@ c-keyboard_key {
 }
 
 .btn {
-    background: #6272a4;
+    background: var(--dark-purp);
     color: #fff !important;
 }
 
@@ -2566,7 +2577,7 @@ c-keyboard_key {
 }
 
 .c-menu_item__li:hover {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
 }
 
 #msg_form .ql-editor,
@@ -2713,7 +2724,7 @@ p-apps_browser__app_limit_meter__paragraph {
 }
 
 .p-channel_sidebar__banner--unreads {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
 }
 
 #select_share_channels .lazy_filter_select .lfs_value .lfs_item.selected {
@@ -3422,7 +3433,7 @@ p-search_filter__from_name,
 }
 
 .c-mrkdwn__broadcast--mention:hover {
-    background: #6272a4;
+    background: var(--dark-purp);
     color: white !important
 }
 
@@ -3626,12 +3637,16 @@ p-search_filter__from_name,
 }
 
 .c-mrkdwn__user_group--link:hover {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
     color: white !important;
 }
 
 .btn:hover {
     background: #bd93f9 !important;
+}
+
+.p-message_pane__unread_banner {
+    background: var(--dark-purp);
 }
 
 .p-threads_footer__input .p-message_input_field {
@@ -3640,28 +3655,28 @@ p-search_filter__from_name,
 
 .c-button-unstyled.p-message_pane__unread_banner__msg,
 .p-message_pane__unread_banner__close:hover {
-    background: #6272a4 !important;
+    background: var(--dark-purp) !important;
 }
 
 .p-message_pane__unread_banner__close--detached {
-    background: #6272a4;
+    background: var(--dark-purp);
     border-left: 1px solid white
 }
 
 #msg_input,
 #msg_input:focus {
     background: none !important;
-    border-color: #6272a4 !important;
+    border-color: var(--dark-purp) !important;
 }
 
 .p-threads_footer__input .p-message_input_field.focus,
 .p-message_input_field {
-    border-color: #6272a4 !important;
+    border-color: var(--dark-purp) !important;
     background: none !important;
 }
 
 .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) {
-    background-color: #6272a4;
+    background-color: var(--dark-purp);
 }
 
 .p-notification_bar__section {
