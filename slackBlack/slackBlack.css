@@ -182,8 +182,8 @@ ts-message .mention {
 
 .c-member_slug--mention,
 .c-member_slug--mention:hover {
-    background: #bd93f9 !important;
-    color: black !important;
+    background: #ffb86c !important;
+    color: #6272a4 !important;
 }
 
 #convo_tab .message_input,
@@ -1052,7 +1052,7 @@ input[type=search]:focus {
 
 .unread_group .unread_group_header .unread_group_mark,
 .unread_group .unread_group_header .unread_keyboard {
-    background: #339252 !important;
+    background: #6272a4 !important;
     color: white !important;
 }
 
@@ -3617,4 +3617,8 @@ p-search_filter__from_name,
 .c-mrkdwn__user_group--link:hover {
     background: #6272a4 !important;
     color: white !important;
+}
+
+.btn:hover {
+    background: #bd93f9 !important
 }
