@@ -160,7 +160,7 @@ ts-message .mention {
 
 .c-member_slug--link {
     background: transparent;
-    color: #ffb86c!important;
+    color: #bd93f9!important;
     font-weight: 600 !important;
     border: none !important;
     font-size: 13px;
@@ -169,7 +169,7 @@ ts-message .mention {
 
 .c-member_slug--link:hover {
     background: #6272a4;
-    color: white !important
+    color: #bd93f9 !important
 }
 
 .menu_content a {
@@ -182,7 +182,7 @@ ts-message .mention {
 
 .c-member_slug--mention,
 .c-member_slug--mention:hover {
-    background: #fbd9a5 !important;
+    background: #bd93f9 !important;
     color: black !important;
 }
 
@@ -3402,12 +3402,12 @@ p-search_filter__from_name,
 }
 
 .c-mrkdwn__broadcast--mention {
-    background: #9651f9 !important;
+    background: #bd93f9 !important;
     color: white !important;
 }
 
 .c-mrkdwn__broadcast--mention:hover {
-    background: #ec51f9;
+    background: #6272a4;
     color: white !important
 }
 
@@ -3607,10 +3607,10 @@ p-search_filter__from_name,
 
 .c-mrkdwn__user_group--link {
     background: transparent !important;
-    color: #bd93f9 !important;
+    color: #ffb86c !important;
 }
 
 .c-mrkdwn__user_group--link:hover {
     background: #6272a4 !important;
-    color: #bd93f9 !important;
+    color: white !important;
 }
