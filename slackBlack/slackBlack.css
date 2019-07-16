@@ -3653,3 +3653,7 @@ p-search_filter__from_name,
     border-color: #6272a4 !important;
     background: none !important;
 }
+
+.menu ul li .menu_item_label:hover {
+    background-color: #6272a4;
+}
