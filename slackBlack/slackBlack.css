@@ -2702,7 +2702,7 @@ p-apps_browser__app_limit_meter__paragraph {
 }
 
 .p-channel_sidebar__banner--unreads {
-    background: #6272a4;
+    background: #6272a4 !important;
 }
 
 #select_share_channels .lazy_filter_select .lfs_value .lfs_item.selected {
