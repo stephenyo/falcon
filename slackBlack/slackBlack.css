@@ -3600,3 +3600,13 @@ p-search_filter__from_name,
 .p-channel_details__subtitle {
     color: #f9a1b8 !important;
 }
+
+.c-mrkdwn__user_group--link {
+    background: transparent !important;
+    color: #bd93f9 !important;
+}
+
+.c-mrkdwn__user_group--link:hover {
+    background: #bd93f9 !important;
+    color: #6272a4 !important;
+}
