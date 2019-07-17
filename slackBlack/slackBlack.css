@@ -3806,3 +3806,11 @@ only screen and (min-resolution:192dpi) {
 .tab_complete_ui .tab_complete_ui_header {
     color: var(--purp);
 }
+
+.c-pillow_file__email__meta__field {
+    color: var(--yellow);
+}
+
+.c-pillow_file__email__sender__address {
+    color: var(--dark-purp);
+}
