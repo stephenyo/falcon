@@ -3780,3 +3780,12 @@ only screen and (min-resolution:192dpi) {
     box-shadow: none !important;
     background: #44475a!important;
 }
+
+.c-message_kit__gutter {
+    background: #222 !important;
+}
+
+.p-unreads_view__header {
+    background: #44475a;
+    color: #f8f8f2;
+}
