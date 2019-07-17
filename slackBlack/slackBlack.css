@@ -3789,3 +3789,7 @@ only screen and (min-resolution:192dpi) {
     background: #44475a;
     color: #f8f8f2;
 }
+
+.p-classic_nav__channel_header__title {
+    color: #f8f8f2;
+}
