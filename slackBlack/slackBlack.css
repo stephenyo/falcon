@@ -3795,5 +3795,5 @@ only screen and (min-resolution:192dpi) {
 }
 
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-    background-color: #6272a4 !important;
+    background-color: #44475a !important;
 }
