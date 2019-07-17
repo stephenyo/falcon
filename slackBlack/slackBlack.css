@@ -3770,3 +3770,13 @@ only screen and (min-resolution:192dpi) {
     line-height: 1;
     color: #fff
 }
+
+.c-message_kit__edit .texty_legacy .ql-editor,
+.c-message_kit__edit .texty_legacy .ql-placeholder {
+    background: #282a36;
+}
+
+.c-button--outline:hover {
+    box-shadow: none !important;
+    background: #44475a!important;
+}
