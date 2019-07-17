@@ -3802,3 +3802,7 @@ only screen and (min-resolution:192dpi) {
     background-color: #44475a;
     color: white;
 }
+
+.tab_complete_ui .tab_complete_ui_header {
+    color: var(--purp);
+}
