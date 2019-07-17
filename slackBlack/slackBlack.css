@@ -3793,3 +3793,7 @@ only screen and (min-resolution:192dpi) {
 .p-classic_nav__channel_header__title {
     color: #f8f8f2;
 }
+
+.c-message__content:hover {
+    background: #44475a !important;
+}
