@@ -3814,3 +3814,7 @@ only screen and (min-resolution:192dpi) {
 .c-pillow_file__email__sender__address {
     color: var(--dark-purp);
 }
+
+.p-unreads_view__empty__message {
+    color: #f8f8f2;
+}
