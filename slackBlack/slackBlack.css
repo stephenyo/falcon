@@ -3818,3 +3818,7 @@ only screen and (min-resolution:192dpi) {
 .p-unreads_view__empty__message {
     color: #f8f8f2;
 }
+
+.c-message_kit__tombstone__text {
+    color: var(--text);
+}
