@@ -3822,3 +3822,7 @@ only screen and (min-resolution:192dpi) {
 .c-message_kit__tombstone__text {
     color: var(--text);
 }
+
+.p-classic_nav__channel_header__subtitle {
+    color: var(--purp);
+}
