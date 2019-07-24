@@ -3835,3 +3835,7 @@ only screen and (min-resolution:192dpi) {
 .p-classic_nav__model__title__name {
     color: white;
 }
+
+body {
+    color: #f8f8f2;
+}
