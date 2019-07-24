@@ -3826,3 +3826,12 @@ only screen and (min-resolution:192dpi) {
 .p-classic_nav__channel_header__subtitle {
     color: var(--purp);
 }
+
+.p-classic_nav__channel_header,
+.p-classic_nav__right_header {
+    background: #222222;
+}
+
+.p-classic_nav__model__title__name {
+    color: white;
+}
