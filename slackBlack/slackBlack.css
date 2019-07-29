@@ -3840,9 +3840,12 @@ body {
     color: #f8f8f2;
 }
 
+
+/*
 .c-texty_input .ql-editor p {
     color: black;
 }
+*/
 
 .p-unreads_view__empty {
     background: var(--background);
