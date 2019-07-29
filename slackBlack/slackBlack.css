@@ -3843,3 +3843,11 @@ body {
 .c-texty_input .ql-editor p {
     color: black;
 }
+
+.p-unreads_view__empty {
+    background: var(--background);
+}
+
+.c-message__editor__input {
+    background: none !important;
+}
