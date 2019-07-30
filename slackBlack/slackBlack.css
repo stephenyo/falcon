@@ -3876,4 +3876,5 @@ body {
 
 .c-message_attachment__button {
     background: var(--dark-purp);
+    color: #f8f8f2;
 }
