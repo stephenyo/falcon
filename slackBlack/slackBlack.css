@@ -3856,7 +3856,7 @@ body {
 }
 
 .c-message_group .c-channel_name {
-    color: none;
+    color: var(--cyan) !important;
 }
 
 .c-mrkdwn__highlight {
