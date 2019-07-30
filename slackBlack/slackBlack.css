@@ -3854,3 +3854,7 @@ body {
 .c-message__editor__input {
     background: none !important;
 }
+
+.c-message_group .c-channel_name {
+    color: none;
+}
