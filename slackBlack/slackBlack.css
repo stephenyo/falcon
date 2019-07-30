@@ -2376,7 +2376,7 @@ c-keyboard_key {
 .c-button-unstyled:focus,
 .c-button-unstyled:hover {
     outline: none;
-    background: none !important;
+    background: none;
     color: var(--purp) !important;
 }
 
