@@ -2376,7 +2376,8 @@ c-keyboard_key {
 .c-button-unstyled:focus,
 .c-button-unstyled:hover {
     outline: none;
-    background: var(--dark-purp) !important;
+    background: none !important;
+    color: var(--purp) !important;
 }
 
 .p-shortcuts_flexpane__shortcut_hoverable .p-shortcuts_flexpane__shortcut_title:hover {
