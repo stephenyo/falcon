@@ -711,7 +711,11 @@ a:hover {
 }
 
 .c-search__input_box__clear {
-    color: #8be9fd !important;
+    color: var(--dark-purp) !important;
+}
+
+button.c-button-unstyled.c-search__input_box__clear:hover {
+    color: var(--cyan) !important;
 }
 
 .c-search_modal .c-search__input_box__clear {
