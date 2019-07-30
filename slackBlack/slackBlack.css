@@ -740,6 +740,7 @@ a:hover {
 .p-channel_sidebar__banner--mentions {
     background: #ff5555 !important;
     box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2) !important;
+    color: #f8f8f2 !important;
 }
 
 .c-file_container {
