@@ -3863,6 +3863,7 @@ body {
     color: #f8f8f2 !important;
 }
 
-.p-threads_footer__input .p-message_input_file_button:hover {
+.p-threads_footer__input .p-message_input_file_button:hover,
+.p-workspace__input .p-message_input_file_button:hover {
     background: var(--dark-purp);
 }
