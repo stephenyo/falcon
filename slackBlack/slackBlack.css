@@ -2917,17 +2917,17 @@ ts-message .action_hover_container .btn_msg_action {
     background: #232323;
 }
 
-.c-icon {
-    color: #acacac;
-}
-
 .ts_icon_happy_smile:before {
     content: '\E119';
     color: #5b5b5b !important;
 }
 
 .c-icon {
-    color: #ffffff;
+    color: #f8f8f2;
+}
+
+.c-icon:hover {
+    color: var(--cyan);
 }
 
 .p-channel_sidebar__link--selected {
