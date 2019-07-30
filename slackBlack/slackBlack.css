@@ -2726,6 +2726,7 @@ p-apps_browser__app_limit_meter__paragraph {
 
 .p-channel_sidebar__banner--unreads {
     background: var(--dark-purp) !important;
+    color: #f8f8f2 !important
 }
 
 #select_share_channels .lazy_filter_select .lfs_value .lfs_item.selected {
@@ -3866,5 +3867,9 @@ body {
 
 .p-threads_footer__input .p-message_input_file_button:hover,
 .p-workspace__input .p-message_input_file_button:hover {
+    background: var(--dark-purp);
+}
+
+.c-message_attachment__button {
     background: var(--dark-purp);
 }
