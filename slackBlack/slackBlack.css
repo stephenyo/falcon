@@ -3862,3 +3862,7 @@ body {
 .c-mrkdwn__highlight {
     color: #f8f8f2 !important;
 }
+
+.p-threads_footer__input .p-message_input_file_button:hover {
+    background: var(--dark-purp);
+}
