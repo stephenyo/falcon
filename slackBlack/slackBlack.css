@@ -388,7 +388,6 @@ ts-message .mention {
     color: #cacbcc !important;
 }
 
-.c-mrkdwn__highlight,
 .c-mrkdwn__mention,
 .c-mrkdwn__mention:hover,
 .c-mrkdwn__user_group--mention,
@@ -3857,4 +3856,8 @@ body {
 
 .c-message_group .c-channel_name {
     color: none;
+}
+
+.c-mrkdwn__highlight {
+    color: #f8f8f2 !important;
 }
